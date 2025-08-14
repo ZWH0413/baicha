@@ -61,18 +61,16 @@ $DATASET_ROOT/Baicha_Data
 - 或者自行下载CLIP权重，修改加载CLIP权重的地址参数
 
 ## Model Zoo
-我们附件中提供了我们训练好的模型，如果直接推理请修改config文件中的 ``$DATASET_ROOT/weights``.
+我们附件中提供了我们训练好的模型，如果直接推理请修改config文件中的 ``TEST.MODEL_WEIGHTS``.
 
 ## 训练和测试
 ### 在白茶萎凋数据集上进行训练
-Complete the dataset information in ./OOPS_TransferableUAL.yaml.
 
 ```bash
 python train.py
 ```
 ### 在白茶萎凋数据集上进行测试
-Complete the dataset information in ./OOPS_TransferableUAL.yaml.
 
 ```bash
-python test.py $DATASET_ROOT/weights/checkpoint.pth
+python test.py
 ```
