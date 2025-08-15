@@ -64,6 +64,7 @@ $DATASET_ROOT/Baicha_Data
 我们提供了我们训练好的模型，并上传至百度网盘，请提前下载至本地。链接与密码如下：
 - [best_94.9.pth](https://pan.baidu.com/s/1Ed466CoPUirdsK3ytxisgw?pwd=1naz)  
 - 提取码：`1naz`
+
 如果直接推理请修改config文件中的 ``TEST.MODEL_WEIGHTS``.
 
 
