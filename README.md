@@ -61,7 +61,11 @@ $DATASET_ROOT/Baicha_Data
 - 或者自行下载CLIP权重，修改加载CLIP权重的地址参数
 
 ## Model Zoo
-我们附件中提供了我们训练好的模型，如果直接推理请修改config文件中的 ``TEST.MODEL_WEIGHTS``.
+我们提供了我们训练好的模型，并上传至百度网盘，请提前下载至本地。链接与密码如下：
+- [best_94.9.pth](https://pan.baidu.com/s/1Ed466CoPUirdsK3ytxisgw?pwd=1naz)  
+- 提取码：`1naz`
+如果直接推理请修改config文件中的 ``TEST.MODEL_WEIGHTS``.
+
 
 ## 训练和测试
 ### 在白茶萎凋数据集上进行训练
